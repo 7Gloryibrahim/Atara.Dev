@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+}
+
+html,
+body {
+  @apply bg-[#493426] dark:bg-[#EBE1D2];
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cinzel-decorative-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+}
