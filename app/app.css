@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+ 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -34,5 +43,31 @@ body {
 .cinzel-decorative-black {
   font-family: "Cinzel Decorative", serif;
   font-weight: 900;
+  font-style: normal;
+}
+
+.playwrite-au-sa-guides-regular {
+  font-family: "Playwrite AU SA Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lily-script-one-regular {
+  font-family: "Lily Script One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.playwrite-us-trad-regular {
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
 }
