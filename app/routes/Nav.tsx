@@ -20,7 +20,7 @@ const [menu, setMenu]= useState(false)
         </ul>
     </div>
     <div className="hidden lg:block">
-        <a  href="https://wa.me/18108054356?text=Welcome%20to%20Atara.Dev" className="bg-[#493426] p-4 rounded-full border border-red-700">Let's Talk</a>
+        <a  href="https://wa.link/z92jr9" className="bg-[#493426] p-4 rounded-full border border-red-700">Let's Talk</a>
     </div>
     <div className="lg:hidden block">
     <IoMdMenu onClick={()=>setMenu(true)} className="text-6xl text-[#493426]"/>
