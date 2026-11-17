@@ -1,6 +1,6 @@
 export default function Hero(){
     return(
-        <main className="  mt-20 h-[100vh] ">
+        <main className="  mt-20 h-[] ">
           
             <div className="flex flex-col w-full justify-center gap-y-20 lg:gap-44 items-center  lg:flex lg:flex-row">
                 <div className="flex flex-col w-fit text-left">
@@ -8,7 +8,7 @@ export default function Hero(){
                     <p className="text-4xl lg:text-3xl playwrite-us-trad-regular">Hello!, I'm</p>
                     <p className="text-[#646637] text-8xl lg:text-8xl  playwrite-us-trad-regular">Atara,</p>
                     </div>
-                    <div className="text-[#493426] text-3xl lg:text-xl w-3xl">
+                    <div className="text-[#493426] text-3xl lg:text-xl w-3xl lg:w-96">
                         <p>I am a <b className="text-red-700 playwrite-au-sa-guides-regular">Front-end Developer</b>, a student of Obafemi Awolowo University currently based in Nigeria .</p>
                     </div>
                 </div>
