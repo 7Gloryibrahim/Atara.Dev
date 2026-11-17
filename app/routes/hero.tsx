@@ -14,9 +14,9 @@ export default function Hero(){
                 </div>
                 <div className="w-[40em] lg:w-fit lg:h-[30em] rounded-2xl   relative"> 
                 <img  src="Hero-Image.webp" className="w-[40em] lg:w-96 lg:h-[30em]  rounded-2xl"/>
-                <div className="flex flex-col gap-y-7 text-[#493426] border rounded-2xl border-[#646637] text-2xl lg:text-xl absolute backdrop-blur-lg top-[28em] lg:top-96 left-96 lg:left-72 w-72 p-3 ">
+                <div className="flex flex-col gap-y-2 text-[#493426] border rounded-2xl border-[#646637] text-2xl lg:text-xl absolute backdrop-blur-3xl top-[28em] lg:top-96 left-96 lg:left-72 w-72 p-3 ">
                     <p> <b className="text-red-700 playwrite-au-sa-guides-regular ">Available for work!</b> </p>
-                        <p>Currently accepting projects</p>
+                        <p className="text-[#493426]">Currently accepting projects</p>
                         <a  href="https://wa.link/z92jr9" className="bg-[#493426]   rounded-full border text-white border-red-700 w-fit p-2">Let's Talk</a>
                     
                 </div>
