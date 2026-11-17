@@ -17,12 +17,13 @@ export default function Hero(){
                 <div className="flex flex-col gap-y-2 text-[#493426] border rounded-2xl border-[#646637] text-2xl lg:text-xl absolute backdrop-blur-3xl top-[28em] lg:top-96 left-96 lg:left-72 w-72 p-3 ">
                     <p> <b className=" text-orange-500 lg:text-red-700   ">Available for work!</b> </p>
                         <p className="text-[#493426]">Currently accepting projects</p>
-                        <a  href="https://wa.link/z92jr9" className="bg-[#493426]   rounded-full border text-white border-red-700 w-fit p-2">Let's Talk</a>
+                        <a  href="https://wa.link/z92jr9" className="bg-[#493426]   rounded-full border text-white border-red-700 w-fit p-2 animate-pulse transition-transform duration-700 mt-2">Let's Talk</a>
                     
                 </div>
               </div>
               </div>
-               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#493426" fill-opacity="1" d="M0,96L120,117.3C240,139,480,181,720,186.7C960,192,1200,160,1320,144L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="mt-52"><path fill="#493426" fill-opacity="1" d="M0,288L60,272C120,256,240,224,360,192C480,160,600,128,720,149.3C840,171,960,245,1080,282.7C1200,320,1320,320,1380,320L1440,320L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+               
         </main>
     )
 }
