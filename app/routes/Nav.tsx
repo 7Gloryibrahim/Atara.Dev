@@ -25,7 +25,7 @@ const [menu, setMenu]= useState(false)
     <div className="lg:hidden block">
     <IoMdMenu onClick={()=>setMenu(true)} className="text-6xl text-[#493426]"/>
          
-       <div onClick={()=>setMenu(false)}  className={`left-0 z-50 transition-all duration-300   ease-in-out flex flex-row top-0 bottom-0 gap-[25em] h-screen w-2xl bg-[#646637]/50 backdrop-blur-3xl  fixed border-l-0 border-r-2 p-4 rounded-r-2xl  border-red-600 ${menu ? "translate-x-0" : "-translate-x-full"}`}>
+       <div onClick={()=>setMenu(false)}  className={`left-0 z-50 transition-all duration-300   ease-in-out flex flex-row top-0 bottom-0 gap-[25em] h-screen w-2xl bg-[#646637]/50 backdrop-blur-3xl  fixed border-l-0 border-r-2 p-4 rounded-r-2xl  border-[#646637] ${menu ? "translate-x-0" : "-translate-x-full"}`}>
         
         <ul className="text-white flex flex-col gap-y-20 gap-4 mt-16 ml-15 text-3xl ">
             <li>Home</li>
@@ -34,7 +34,7 @@ const [menu, setMenu]= useState(false)
              <li>Services</li>
              <li>Contact</li>
         </ul>
-        <GiCancel onClick={()=> setMenu(false)} className="mt-10 text-5xl text-[#dfb5aa]"/>
+        <GiCancel onClick={()=> setMenu(false)} className="mt-10 text-5xl text-[#493426]"/>
          </div>
     </div>
    </div>
